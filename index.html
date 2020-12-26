@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Messenger" />
+    <meta name="keywords" content="messenger" />
+    <meta property="og:title" content="Messenger " />
+    <meta property="og:description" content="Welcome to messenger" />
+    <meta name="og:image" content="messenger.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mayank-01-ms.github.io/messenger">
+    <meta name="og:site_name" content="Messenger" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="messenger.png" type="image/png">
+    <title>Messenger</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div id="msg"></div>
+        </header>
+        <main>
+            <div id="chat-window">
+                <ul id="messages">
+                    <li class="message left">
+                        <i class="username">Welcome</i> to Messenger
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <form id="form" autocomplete="off">
+            <input type="text" placeholder="Enter your message" id="message">
+            <button>Send</button>
+        </form>
+    </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

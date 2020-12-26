@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 400px;
+  background: #fff;
+  padding: 1rem;
+}
+
+.container header #msg {
+  color: #f00;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.container #chat-window {
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+
+.container #chat-window ul i {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container #chat-window ul .message {
+  list-style: none;
+  padding: 1.5rem;
+  width: 250px;
+  margin: 0.5rem 0;
+}
+
+.container #chat-window ul .left {
+  border: 1px solid #7070703f;
+  border-radius: 45px 45px 45px 10px;
+  float: left;
+}
+
+.container #chat-window ul .right {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  border-radius: 45px 45px 10px 45px;
+  color: #fff;
+  float: right;
+}
+
+.container form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.container form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid #707070;
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+
+.container form button {
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 45px;
+  margin-left: 1rem;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+/*# sourceMappingURL=styles.css.map */
