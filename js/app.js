@@ -47,7 +47,7 @@ form.addEventListener('submit', e => {
 
 const updateMessages = data => {
     const {name, text} = data.val();
-    const msg = `<li class="${name == username ? "message left": "message right"}">
+    const msg = `<li class="${name == username ? "message right": "message left"}">
                     <i class = "name">${name}: </i>${text}
                 </li>`;
 
